@@ -201,6 +201,116 @@ message DisplayOptions
 	optional bool turnOffWhenSuspended = 18;
 }
 
+message PinsPosition {
+    optional int32 x_pin00 = 0;
+	optional int32 y_pin00 = 0;
+	optional int32 index_pin00 = 0;
+	optional int32 x_pin01 = 0;
+	optional int32 y_pin01 = 0;
+	optional int32 index_pin01 = -1;
+	optional int32 x_pin02 = 0;
+	optional int32 y_pin02 = 0;
+	optional int32 index_pin02 = -1;
+	optional int32 x_pin03 = 0;
+	optional int32 y_pin03 = 0;
+	optional int32 index_pin03 = -1;
+	optional int32 x_pin04 = 0;
+	optional int32 y_pin04 = 0;
+	optional int32 index_pin04 = -1;
+	optional int32 x_pin05 = 0;
+	optional int32 y_pin05 = 0;
+	optional int32 index_pin05 = -1;
+	optional int32 x_pin06 = 0;
+	optional int32 y_pin06 = 0;
+	optional int32 index_pin06 = -1;
+	optional int32 x_pin07 = 0;
+	optional int32 y_pin07 = 0;
+	optional int32 index_pin07 = -1;
+	optional int32 x_pin08 = 0;
+	optional int32 y_pin08 = 0;
+	optional int32 index_pin08 = -1;
+	optional int32 x_pin09 = 0;
+	optional int32 y_pin09 = 0;
+	optional int32 index_pin09 = -1;
+	optional int32 x_pin10 = 0;
+	optional int32 y_pin10 = 0;
+	optional int32 index_pin10 = -1;
+	optional int32 x_pin11 = 0;
+	optional int32 y_pin11 = 0;
+	optional int32 index_pin11 = -1;
+	optional int32 x_pin12 = 0;
+	optional int32 y_pin12 = 0;
+	optional int32 index_pin12 = -1;
+	optional int32 x_pin13 = 0;
+	optional int32 y_pin13 = 0;
+	optional int32 index_pin13 = -1;
+	optional int32 x_pin14 = 0;
+	optional int32 y_pin14 = 0;
+	optional int32 index_pin14 = -1;
+	optional int32 x_pin15 = 0;
+	optional int32 y_pin15 = 0;
+	optional int32 index_pin15 = -1;
+	optional int32 x_pin16 = 0;
+	optional int32 y_pin16 = 0;
+	optional int32 index_pin16 = -1;
+	optional int32 x_pin17 = 0;
+	optional int32 y_pin17 = 0;
+	optional int32 index_pin17 = -1;
+	optional int32 x_pin18 = 0;
+	optional int32 y_pin18 = 0;
+	optional int32 index_pin18 = -1;
+	optional int32 x_pin19 = 0;
+	optional int32 y_pin19 = 0;
+	optional int32 index_pin19 = -1;
+	optional int32 x_pin20 = 0;
+	optional int32 y_pin20 = 0;
+	optional int32 index_pin20 = -1;
+	optional int32 x_pin21 = 0;
+	optional int32 y_pin21 = 0;
+	optional int32 index_pin21 = -1;
+	optional int32 x_pin22 = 0;
+	optional int32 y_pin22 = 0;
+	optional int32 index_pin22 = -1;
+	optional int32 x_pin23 = 0;
+	optional int32 y_pin23 = 0;
+	optional int32 index_pin23 = -1;
+	optional int32 x_pin24 = 0;
+	optional int32 y_pin24 = 0;
+	optional int32 index_pin24 = -1;
+	optional int32 x_pin25 = 0;
+	optional int32 y_pin25 = 0;
+	optional int32 index_pin25 = -1;
+	optional int32 x_pin26 = 0;
+	optional int32 y_pin26 = 0;
+	optional int32 index_pin26 = -1;
+	optional int32 x_pin27 = 0;
+	optional int32 y_pin27 = 0;
+	optional int32 index_pin27 = -1;
+	optional int32 x_pin28 = 0;
+	optional int32 y_pin28 = 0;
+	optional int32 index_pin28 = -1;
+	optional int32 x_pin29 = 0;
+	optional int32 y_pin29 = 0;
+	optional int32 index_pin29 = -1;
+}
+
+message NewLEDOptions {
+    optional int32 dataPin = 1;
+	optional LEDFormat_Proto ledFormat = 2;
+	optional uint32 ledsPerButton = 4;
+	optional uint32 brightnessMaximum = 5;
+	optional uint32 brightnessSteps = 6;
+	
+	optional PLEDType pledType = 25;
+	optional int32 pledPin1 = 26;
+	optional int32 pledPin2 = 27;
+	optional int32 pledPin3 = 28;
+	optional int32 pledPin4 = 29;
+	optional uint32 pledColor = 30;
+
+	optional bool turnOffWhenSuspended = 31;
+}
+
 message LEDOptions
 {
 	optional int32 dataPin = 1;
